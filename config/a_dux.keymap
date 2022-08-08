@@ -6,10 +6,10 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#DEFINE layer1 0
-#DEFINE mod1 1
-#DEFINE layer2 2
-#DEFINE mod2 3
+#define layer1 0
+#define mod1 1
+#define layer2 2
+#define mod2 3
 
 / {
 
