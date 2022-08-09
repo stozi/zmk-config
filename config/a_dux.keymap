@@ -21,7 +21,7 @@
 				&kp N8     &kp N9     &kp N0     &kp N1     &kp N2        &kp N3        &kp N4    &kp N5    &kp N6    &kp N7
 				&kp LEFT   &kp UP     &kp DOWN   &kp RIGHT  &kp C_VOL_UP  &none         &none     &none     &none     &none
 				&kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &kp C_VOL_DN  &mt LCRTL TAB &none     &none     &none     &none
-				                              &tog 2   &lt mod1 ENTER &mt LSHIFT SPACE &mt LALT BSPC
+				                              &tog 2   &lt 1 ENTER &mt LSHIFT SPACE &mt LALT BSPC
 			>;
 		};
 		mod1 {
@@ -37,7 +37,7 @@
 				&kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U     &kp I     &kp O     &kp P
 				&kp A     &kp S     &kp D     &kp F     &kp G     &kp H     &kp J     &kp K     &kp L     &kp SEMI
 				&kp Z     &kp X     &kp C     &kp V     &kp B     &kp N     &kp M     &kp COMMA &kp DOT   &kp SLASH
-				                              &trans   &lt mod2 ENTER  &trans  &mt LALT BSPC
+				                              &trans   &lt 2 ENTER  &trans  &mt LALT BSPC
 			>;
 		};
 		mod2 {
