@@ -12,6 +12,10 @@
 #define alfa 2
 #define alfacf 3
 
+&mt {
+        quick-tap-ms = <175>;
+};
+
 / {
 
 	keymap {
