@@ -23,17 +23,17 @@
 
 		nmnv {
 			bindings = <
-			&kp N8     &kp N9     &kp N0     &kp N1     &kp N2        &kp N3        &kp N4              &kp N5        &kp N6           &kp N7
-			&kp LEFT   &kp UP     &kp DOWN   &kp RIGHT  &kp C_VOL_UP  &mkp RCLK     &mmv MOVE_LEFT &mmv MOVE_DOWN     &mmv MOVE_UP     &mmv MOVE_RIGHT
-			&kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &kp C_VOL_DN  &mt LCTRL TAB &mkp LCLK      &mwh SCROLL_DOWN   &mwh SCROLL_UP   &mkp MCLK
+			&kp N8   &kp N9    &kp N0    &kp N1    &kp N2       &kp N3        &kp N4              &kp N5      &kp N6         &kp N7
+			&kp LEFT &kp UP    &kp DOWN  &kp RIGHT &kp C_VOL_UP &mkp RCLK     &mmv MOVE_LEFT &mmv MOVE_DOWN   &mmv MOVE_UP   &mmv MOVE_RIGHT
+			&kp HOME &kp PG_UP &kp PG_DN &kp END   &kp C_VOL_DN &mt LCTRL TAB &mkp LCLK      &mwh SCROLL_DOWN &mwh SCROLL_UP &mkp MCLK
 				                              &tog 2   &lt 1 ENTER &mt LSHIFT SPACE &mt LALT BSPC
 			>;
 		};
 		nmnvcf {
 			bindings = <
-			&kp F8       &kp F9        &kp F10       &kp F1        &kp F2        &kp F3        &kp F4    &kp F5    &kp F6    &kp F7
-			&kp LC(LEFT) &kp LC(UP)    &kp LC(DOWN)  &kp LC(RIGHT) &kp C_BRI_UP  &kp F11       &kp E     &kp W     &kp LS(Z) &kp C_MUTE
-			&kp LC(HOME) &kp LC(PG_UP) &kp LC(PG_DN) &kp LC(END)   &kp C_BRI_DN  &mt LCTRL F12 &kp BSLH  &kp MINUS &kp EQUAL &kp ESC
+			&kp F8       &kp F9        &kp F10       &kp F1        &kp F2        &kp F3        &kp F4   &kp F5       &kp F6       &kp F7
+			&kp LC(LEFT) &kp LC(UP)    &kp LC(DOWN)  &kp LC(RIGHT) &kp C_BRI_UP  &kp F11       &kp BSLH &kp MINUS    &kp EQUAL    &kp C_MUTE
+			&kp LC(HOME) &kp LC(PG_UP) &kp LC(PG_DN) &kp LC(END)   &kp C_BRI_DN  &mt LCTRL F12 &kp V    &kp LC(LBKT) &kp LC(RBKT) &kp ESC
 				                              &trans    &trans   &trans  &mt LALT DEL
 			>;
 		};
@@ -47,9 +47,9 @@
 		};
 		alfacf {
 			bindings = <
-			&kp AT       &kp KP_MINUS  &kp AMPS    &kp LC(R)     &kp GRAVE &kp LC(Y)       &kp LBKT &kp LC(D)     &kp LC(O)   &kp LC(P)
-			&kp LC(A)    &kp LC(S)     &kp F9      &kp LC(ENTER) &kp RCTRL &kp PAUSE_BREAK &kp SQT  &kp LC(K)     &kp LC(L)   &kp LC(SEMI)
-			&kp LC(FSLH) &kp LC(T)     &kp LC(DOT) &kp LC(I)     &kp LC(B) &kp LC(N)       &kp RBKT &kp LC(COMMA) &kp LC(SQT) &kp LC(RBKT)
+			&kp LC(Q) &kp LC(W) &kp LC(E)     &kp LC(R)       &kp GRAVE  &kp LS(N7) &kp SQT   &kp LC(I) &kp LC(O)   &kp LC(P)
+			&kp LC(A) &kp LC(S) &kp LC(ENTER) &kp LC(F)       &kp RCTRL  &kp MINUS  &kp LBKT  &kp LC(K) &kp LC(L)   &kp LC(SEMI)
+			&kp LC(Z) &kp LC(X) &kp F9        &kp PAUSE_BREAK &kp LS(N2) &kp LC(N)  &kp LC(M) &kp RBKT  &kp LC(DOT) &kp LC(SLASH)
 				                              &trans   &trans   &trans  &kp DEL
 			>;
 		};
