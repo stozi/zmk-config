@@ -47,9 +47,9 @@
 		};
 		alfacf {
 			bindings = <
-			&kp LC(Q) &kp LC(W) &kp LC(E) &kp PAUSE_BREAK &kp GRAVE &kp LC(Y) &kp LS(N2) &kp LC(I)  &kp LC(O)  &kp LC(P)
-			&kp LC(A) &kp LC(S) &kp LC(D) &kp LC(F)       &kp RCTRL &kp LC(H) &kp LBKT   &kp SQT    &kp LC(L)  &kp LC(SEMI)
-			&kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(ENTER)   &kp F9    &kp LC(N) &kp LC(M)  &kp RBKT   &kp LS(N7) &kp MINUS
+			&kp LC(Q) &kp LC(W) &kp PAUSE_BREAK &kp RCTRL &kp LC(T) &kp RBKT  &kp LC(U) &kp LC(I)  &kp LC(O)  &kp MINUS 
+			&kp LC(A) &kp LC(S) &kp LC(D)       &kp LC(F) &kp LC(G) &kp LBKT  &kp LC(J) &kp SQT    &kp LC(L)  &kp LC(SEMI)
+			&kp LC(Z) &kp F9    &kp LC(ENTER)   &kp LC(V) &kp LC(B) &kp LC(N) &kp LC(M) &kp LS(N2) &kp LS(N7) &kp GRAVE 
 				                             &trans   &trans   &trans  &kp DEL
 			>;
 		};
