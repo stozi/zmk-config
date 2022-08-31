@@ -25,7 +25,7 @@
 			bindings = <
 			&kp N8         &kp N9       &kp N0         &kp N1          &kp N2    &kp N3          &kp N4   &kp N5    &kp N6    &kp N7
 			&mmv MOVE_LEFT &mmv MOVE_UP &mmv MOVE_DOWN &mmv MOVE_RIGHT &mkp RCLK &kp TAB         &kp LEFT &kp DOWN  &kp UP    &kp RIGHT      
-			&mkp MCLK      &kp C_VOL_UP &kp C_VOL_DN   &mkp LCLK       &kp DOT   &mt LCTRL COMMA &kp HOME &kp PG_UP &kp PG_DN &kp END   
+			&mkp MCLK      &kp C_VOL_DN &kp C_VOL_UP   &mkp LCLK       &kp DOT   &mt LCTRL COMMA &kp HOME &kp PG_UP &kp PG_DN &kp END   
 				                              &tog 2 &lt 1 ENTER &mt LSHIFT SPACE &mt LALT BSPC
 			>;
 		};
