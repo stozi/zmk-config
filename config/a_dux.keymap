@@ -41,8 +41,8 @@
 		nmnvcf {
 			bindings = <
 			&kp F8     &kp F9         &kp F10          &kp F1    &kp F2          &kp F3     &kp F4       &kp F5        &kp F6        &kp F7
-			&kp MINUS  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp EQUAL &kp F11         &kp ESC    &kp LC(LEFT) &kp LC(DOWN)  &kp LC(UP)    &kp LC(RIGHT) 
-			&kp KP_N1  &kp LC(P)      &kp LC(RBKT)     &kp BSLH  &mt LCTRL F12   &kp C_MUTE &kp LC(HOME) &kp LC(PG_UP) &kp LC(PG_DN) &kp LC(END)
+			&kp MINUS  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp EQUAL &kp C_MUTE      &kp ESC    &kp LC(LEFT) &kp LC(DOWN)  &kp LC(UP)    &kp LC(RIGHT) 
+			&kp KP_N1  &kp LC(P)      &kp LC(RBKT)     &kp BSLH  &mt LCTRL F11   &kp F12    &kp LC(HOME) &kp LC(PG_UP) &kp LC(PG_DN) &kp LC(END)
 				                                          &trans    &trans   &trans  &mt LALT DEL
 			>;
 		};
