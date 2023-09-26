@@ -31,6 +31,29 @@
 
 / {
 
+combos {
+    compatible = "zmk,combos";
+    combo_smart_theLC {
+        timeout-ms = <100>;
+        key-positions = <31 32 55>;
+        bindings = <&ac_THE_LC>;
+    };
+};
+macros {
+    ac_THE_LC: ac_THE_LC {
+        label = "ZM_ac_THE_LC";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <5>;
+        tap-ms = <5>;
+        bindings
+        = <&macro_tap &kp T>
+        , <&macro_release &kp LSHFT>
+        , <&macro_tap &kp H &kp E &kp SPACE>
+        ;
+    };
+};
+
 	keymap {
 		compatible = "zmk,keymap";
 
@@ -62,7 +85,7 @@
 			bindings = <
 			&kp LC(Q) &kp LC(W) &kp PAUSE_BREAK &kp RCTRL &kp LC(T)   &kp LC(Y) &kp RBKT  &kp LC(I)  &kp LC(O)  &kp MINUS 
 			&kp LC(A) &kp LC(S) &kp LC(D)       &kp LC(F) &kp LC(G)   &kp LC(H) &kp LBKT  &kp SQT    &kp LC(L)  &kp LC(SEMI)
-			&kp LC(Z) &kp LC(P) &kp LC(RBKT)    &kp LC(V) &kp LC(B)   &kp LC(N) &kp LC(M) &kp LS(N2) &kp GRAVE  &kp LS(N7)
+			&kp LC(Z) &kp LC(P) &kp LC(RBKT)    &kp LC(V) &kp LC(B)   &kp LC(N) &kp LC(M) &kp LS(N2) &kp GRAVE  &ac_THE_LC
 				                               &trans   &trans    &trans  &kp DEL
 			>;
 		};
