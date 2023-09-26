@@ -85,7 +85,7 @@ macros {
 			bindings = <
 			&kp LC(Q) &kp LC(W) &kp PAUSE_BREAK &kp RCTRL &kp LC(T)   &kp LC(Y) &kp RBKT  &kp LC(I)  &kp LC(O)  &kp MINUS 
 			&kp LC(A) &kp LC(S) &kp LC(D)       &kp LC(F) &kp LC(G)   &kp LC(H) &kp LBKT  &kp SQT    &kp LC(L)  &kp LC(SEMI)
-			&kp LC(Z) &kp LC(P) &kp LC(RBKT)    &kp LC(V) &kp LC(B)   &kp LC(N) &kp LC(M) &kp LS(N2) &kp GRAVE  &ac_THE_LC
+			&kp LC(Z) &kp LC(P) &kp LC(RBKT)    &kp LC(V) &kp LC(B)   &kp LC(N) &kp LC(M) &ac_THE_LC &kp GRAVE  &kp LS(N7)
 				                               &trans   &trans    &trans  &kp DEL
 			>;
 		};
