@@ -31,14 +31,6 @@
 
 / {
 
-combos {
-    compatible = "zmk,combos";
-    combo_smart_theLC {
-        timeout-ms = <100>;
-        key-positions = <31 32 55>;
-        bindings = <&ac_THE_LC>;
-    };
-};
 macros {
     ac_THE_LC: ac_THE_LC {
         label = "ZM_ac_THE_LC";
