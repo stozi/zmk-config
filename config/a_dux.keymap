@@ -54,7 +54,7 @@
 			bindings = <
 			&kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U     &kp I     &kp O     &kp P
 			&kp A     &kp S     &kp D     &kp F     &kp G     &kp H     &kp J     &kp K     &kp L     &kp SEMI
-			&kp Z     &kp X     &kp C     &kp V     &kp B     &kp N     &kp M     &kp SLASH &kp DOT   &kp COMMA
+			&kp Z     &kp X     &kp C     &kp V     &kp B     &kp N     &kp M     &kp COMMA &kp DOT   &kp SLASH
 				                 &trans   &lt 3 ENTER     &trans  &mt LALT BSPC
 			>;
 		};
@@ -62,7 +62,7 @@
 			bindings = <
 			&kp LC(Q) &kp LC(W) &kp PAUSE_BREAK &kp RCTRL &kp LC(T)   &kp LC(Y) &kp RBKT  &kp LC(I)  &kp LC(O)  &kp MINUS 
 			&kp LC(A) &kp LC(S) &kp LC(D)       &kp LC(F) &kp LC(G)   &kp LC(H) &kp LBKT  &kp SQT    &kp LC(L)  &kp LC(SEMI)
-			&kp LC(Z) &kp LC(P) &kp LC(RBKT)    &kp LC(V) &kp LC(B)   &kp LC(N) &kp LC(M) &kp LS(N7) &kp GRAVE &kp LS(N2)
+			&kp LC(Z) &kp LC(P) &kp LC(RBKT)    &kp LC(V) &kp LC(B)   &kp LC(N) &kp LC(M) &kp LS(N2) &kp GRAVE  &kp LS(N7)
 				                               &trans   &trans    &trans  &kp DEL
 			>;
 		};
