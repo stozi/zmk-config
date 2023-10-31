@@ -83,7 +83,7 @@ macros {
         wait-ms = <5>;
         tap-ms = <5>;
         bindings
-        = <&macro_tap &kp SLASH &kp R &kp I &kp E>
+        = <&macro_tap &kp SLASH &kp R &kp I &kp C>
         ;
     };
 };
