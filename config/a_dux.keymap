@@ -33,6 +33,7 @@
     mod-morph {
     less_or_more: less_and_greater {
        compatible = "zmk,behavior-mod-morph";
+       #binding-cells = <0>;
        label = "LESS_AND_GREATER";
        bindings = <&kp LESS_THAN>, <&kp GREATER_THAN>;
        mods = <(MOD_LSFT|MOD_RSFT)>;
