@@ -6,7 +6,7 @@ manifest:
       url-base: https://github.com/caksoylar
   projects:
     - name: zmk
-      revision: feat/west.yml
+      revision: feat/mouse-keys-3.2
       import: app/west.yml
   self:
     path: config
