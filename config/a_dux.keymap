@@ -38,6 +38,18 @@
 	    layers = <2 3>;
             bindings = <&tog 3>;
         };
+	combo_wu {
+            timeout-ms = <50>;
+            key-positions = <10 11>;
+	    layers = <0>;
+            bindings = <&msc SCRL_UP>;
+        };
+	combo_wd {
+            timeout-ms = <50>;
+            key-positions = <12 13>;
+	    layers = <0>;
+            bindings = <&msc SCRL_DOWN>;
+        };
     };
 };
 
