@@ -105,7 +105,7 @@ macros {
         wait-ms = <5>;
         tap-ms = <5>;
         bindings
-        = <&macro_tap &kp K &kp A &kp E>
+        = <&macro_tap &kp K &kp A &kp E &kp SPACE>
         ;
     };
 };
