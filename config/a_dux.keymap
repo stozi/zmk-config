@@ -40,13 +40,13 @@
         };
 	combo_wu {
             timeout-ms = <50>;
-            key-positions = <10 11>;
+            key-positions = <10 13>;
 	    layers = <0>;
             bindings = <&msc SCRL_UP>;
         };
 	combo_wd {
             timeout-ms = <50>;
-            key-positions = <12 13>;
+            key-positions = <11 12>;
 	    layers = <0>;
             bindings = <&msc SCRL_DOWN>;
         };
@@ -105,17 +105,17 @@ macros {
 
 		nmnv {
 			bindings = <
-            		&kp LC(PG_UP)  &kp LC(K)    &kp LC(T)      &kp LC(R)       &kp LC(Z)     &kp ESC      &kp TAB    &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE 
+            		&kp PG_UP  &kp LC(K)    &kp LC(T)      &kp LC(R)       &kp LC(Z)     &kp ESC      &kp TAB    &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE 
 			&mmv MOVE_LEFT &mmv MOVE_UP &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp C_BRI_UP  &kp LC(BSPC) &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT      
-			&kp LC(PG_DN)  &mkp RCLK    &mkp MCLK      &mkp LCLK       &kp C_BRI_DN  &kp LC(DEL)  &ac_THE_LC &kp END      &kp HOME     &kp SLASH  
+			&kp PG_DN  &mkp RCLK    &mkp MCLK      &mkp LCLK       &kp C_BRI_DN  &kp LC(DEL)  &ac_THE_LC &kp END      &kp HOME     &kp SLASH  
 				                                             &tog 2 &lt 1 ENTER   &mt LSHIFT SPACE &mt LALT BSPC
 			>;
 		};
 		nmnvcf {
 			bindings = <
-			&kp PG_UP &kp F10      &kp F1         &kp F2        &kp F3        &kp F4           &kp F5       &kp F6       &kp F7       &kp F8
-			&kp F9    &msc SCRL_UP &msc SCRL_DOWN &kp LC(ENTER) &kp LC(EQUAL) &kp LS(LC(BSPC)) &kp LC(LEFT) &kp LC(DOWN) &kp LC(UP)   &kp LC(RIGHT) 
-            		&kp PG_DN &kp LC(H)    &kp LC(B)      &sk LCTRL     &kp LC(DOT)   &kp LS(LC(DEL))  &kp F11      &kp LC(END)  &kp LC(HOME) &kp F12
+			&kp PG_UP &kp F10       &kp F1         &kp F2        &kp F3        &kp F4           &kp F5       &kp F6       &kp F7       &kp F8
+			&kp F9    &kp LC(PG_UP) &kp LC(PG_DN)  &kp LC(ENTER) &kp LC(EQUAL) &kp LS(LC(BSPC)) &kp LC(LEFT) &kp LC(DOWN) &kp LC(UP)   &kp LC(RIGHT) 
+            		&kp PG_DN &kp LC(H)     &kp LC(B)      &sk LCTRL     &kp LC(DOT)   &kp LS(LC(DEL))  &kp F11      &kp LC(END)  &kp LC(HOME) &kp F12
 				                                          &trans   &trans        &trans  &mt LALT DEL
 			>;
 		};
