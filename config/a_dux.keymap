@@ -135,7 +135,7 @@ macros {
 			bindings = <
 			&kp F9     &kp F10       &kp F1         &kp F2        &kp F3        &kp F4           &kp F5       &kp F6       &kp F7       &kp F8
 			&ac_AND_LC &kp LC(PG_UP) &kp LC(PG_DN)  &kp LC(ENTER) &kp LC(EQUAL) &kp LS(LC(BSPC)) &kp LC(LEFT) &kp LC(DOWN) &kp LC(UP)   &kp LC(RIGHT) 
-            		&ac_OF_LC  &kp LC(U)     &kp LC(B)      &sk LCTRL     &kp LC(DOT)   &kp LS(LC(DEL))  &kp F11      &kp LC(END)  &kp LC(HOME) &kp F12
+            		&ac_OF_LC  &kp C_AC_REDO &kp LC(B)      &sk LCTRL     &kp LC(DOT)   &kp LS(LC(DEL))  &kp F11      &kp LC(END)  &kp LC(HOME) &kp F12
 				                                          &trans   &trans        &trans  &mt LALT DEL
 			>;
 		};
