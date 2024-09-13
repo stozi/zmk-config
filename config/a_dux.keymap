@@ -29,6 +29,10 @@
    	release-after-ms = <4000>;
 };
 
+&key_repeat {
+    usage-pages = <HID_USAGE_KEY HID_USAGE_CONSUMER>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -108,16 +112,6 @@ macros {
         = <&macro_tap &kp K &kp A &kp E &kp SPACE>
         ;
     };
-	ac_OF_LC: ac_OF_LC {
-        label = "ZM_ac_OF_LC";
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        wait-ms = <5>;
-        tap-ms = <5>;
-        bindings
-        = <&macro_tap &kp I &kp M &kp SPACE>
-        ;
-    };
 };
 
 	keymap {
@@ -133,9 +127,9 @@ macros {
 		};
 		nmnvcf {
 			bindings = <
-			&kp F9     &kp F10       &kp F1         &kp F2        &kp F3        &kp F4           &kp F5       &kp F6       &kp F7       &kp F8
-			&ac_AND_LC &kp LC(PG_UP) &kp LC(PG_DN)  &kp LC(ENTER) &kp LC(EQUAL) &kp LS(LC(BSPC)) &kp LC(LEFT) &kp LC(DOWN) &kp LC(UP)   &kp LC(RIGHT) 
-            		&ac_OF_LC  &kp C_AC_REDO &kp LC(B)      &sk LCTRL     &kp LC(DOT)   &kp LS(LC(DEL))  &kp F11      &kp LC(END)  &kp LC(HOME) &kp F12
+			&kp F9      &kp F10       &kp F1         &kp F2        &kp F3        &kp F4           &kp F5       &kp F6       &kp F7       &kp F8
+			&key_repeat &kp LC(PG_UP) &kp LC(PG_DN)  &kp LC(ENTER) &kp LC(EQUAL) &kp LS(LC(BSPC)) &kp LC(LEFT) &kp LC(DOWN) &kp LC(UP)   &kp LC(RIGHT) 
+            		&ac_AND_LC  &kp C_AC_REDO &kp LC(B)      &sk LCTRL     &kp LC(DOT)   &kp LS(LC(DEL))  &kp F11      &kp LC(END)  &kp LC(HOME) &kp F12
 				                                          &trans   &trans        &trans  &mt LALT DEL
 			>;
 		};
