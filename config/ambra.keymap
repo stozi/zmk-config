@@ -114,9 +114,9 @@ macros {
 
 		nmnv {
 			bindings = <
-            		&kp PG_UP  &kp LC(K)    &kp LC(T)      &kp LC(R)       &kp LC(Z)     &kp ESC      &kp TAB    &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE 
+            		&kp PG_UP      &kp LC(K)    &kp LC(T)      &kp LC(R)       &kp LC(Z)     &kp ESC      &kp TAB    &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE 
 			&mmv MOVE_LEFT &mmv MOVE_UP &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp C_BRI_UP  &kp LC(BSPC) &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT      
-			&kp PG_DN  &mkp RCLK    &mkp MCLK      &mkp LCLK       &kp C_BRI_DN  &kp LC(DEL)  &ac_THE_LC &kp END      &kp HOME     &kp SLASH  
+			&kp PG_DN      &mkp RCLK    &mkp MCLK      &mkp LCLK       &kp C_BRI_DN  &kp LC(DEL)  &ac_THE_LC &kp END      &kp HOME     &kp SLASH  
 				                                             &tog 2 &lt 1 ENTER   &mt LSHIFT SPACE &mt LALT BSPC
 			>;
 		};
