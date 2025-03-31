@@ -61,19 +61,17 @@
 
 macros {
         ac_THE_LC: ac_THE_LC {
-        label = "ZM_ac_THE_LC";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <5>;
         tap-ms = <5>;
         bindings
         = <&macro_tap &kp D>
-        , <&macro_release &kp LSHFT>
+        , <&macro_release &kp LSHIFT>
         , <&macro_tap &kp J &kp L &kp SPACE>
         ;
       };
         ac_BRAK_LC: ac_BRAK_LC {
-        label = "ZM_ac_BRAK_LC";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <5>;
@@ -83,7 +81,6 @@ macros {
         ;
       };
         ac_SEN_LC: ac_SEN_LC {
-        label = "ZM_ac_SEN_LC";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <5>;
@@ -93,7 +90,6 @@ macros {
         ;
     };
 	ac_COM_LC: ac_COM_LC {
-        label = "ZM_ac_COM_LC";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <5>;
@@ -103,7 +99,6 @@ macros {
         ;
     };
 	ac_AND_LC: ac_AND_LC {
-        label = "ZM_ac_AND_LC";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <5>;
