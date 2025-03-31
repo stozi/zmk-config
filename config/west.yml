@@ -10,7 +10,7 @@ manifest:
       revision: main
       import: app/west.yml
     - name: zmk-keyboard-ambra
-      remote: zmk-keyboard-ambra
+      remote: ambra
       revision: main
   self:
     path: config
