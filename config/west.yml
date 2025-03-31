@@ -9,8 +9,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-keyboard-ambra
-      remote: ambra
+    - name: ambra
+      remote: zmk-keyboard-ambra
       revision: main
   self:
     path: config
