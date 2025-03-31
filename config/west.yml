@@ -2,10 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: zmk-keyboard-ambra
+      url-base: https://github.com/stozi/zmk-keyboard-ambra
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-keyboard-ambra
+      remote: zmk-keyboard-ambra
+      revision: main
   self:
     path: config
